@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Would you 💖</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="header-img">
+    <img id="mainImage" src="image/would u.png" alt="valentine">
+  </div>
+
+  <div class="footer-pink">
+    <h1 id="question">Would you be my Valentine? 💕</h1>
+
+    <div class="button-grp">
+      <button onclick="validerOui()" class="btn primary">YES</button>
+      <button id="noBtn" class="btn secondary" onmouseover="fuir()">NO</button>
+    </div>
+
+    <p id="resultText"></p>
+  </div>
+
+
+  <audio id="yesSound" src="sounds/yes.mp3" preload="auto"></audio>
+
+
+  <script src="mn.js"></script>
+</body>
+
+</html>
